@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        valor = parseInt(prompt('Valor'));
+document.write('R$' + valor + '<br>');
+            v100 = valor / 100;
+            document.write('100: ' + (Math.floor(v100) + '<br>'));
+            v100 = parseInt(v100);
+            valor -= (v100 * 100);
+
+            v50 = valor / 50;
+            document.write('50: ' + (Math.floor(v50)) + '<br>');
+            v50 = parseInt(v50);
+            valor -= (v50 * 50);
+
+            v10 = valor / 10;
+            document.write('10: ' + (Math.floor(v10)) + '<br>');
+            v10 = parseInt(v10);
+            valor -= (v10 * 10);
+
+            v5 = valor / 5;
+            document.write('5: ' +(Math.floor(v5)) + '<br>');
+            v5 = parseInt(v5);
+            valor -= (v5 * 5);
+
+            document.write('1: ' + Math.floor(valor));
+    </script>
+</body>
+</html>
