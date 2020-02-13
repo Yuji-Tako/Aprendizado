@@ -1,0 +1,70 @@
+56121742019.1@56DE195000 MINGW64 /c/Holf/SegVer
+$ git config --global user.name "Yuji Tako"
+
+56121742019.1@56DE195000 MINGW64 /c/Holf/SegVer
+$ git config --global user.email "yuji.tcr@gmail.com"
+
+56121742019.1@56DE195000 MINGW64 /c/Holf/SegVer
+$ git clone https://github.com/Yuji-Tako/Aprendizado.git
+Cloning into 'Aprendizado'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+
+56121742019.1@56DE195000 MINGW64 /c/Holf/SegVer
+$ cd Aprendizado
+
+56121742019.1@56DE195000 MINGW64 /c/Holf/SegVer/Aprendizado (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+56121742019.1@56DE195000 MINGW64 /c/Holf/SegVer/Aprendizado (master)
+$ git add index.html
+
+56121742019.1@56DE195000 MINGW64 /c/Holf/SegVer/Aprendizado (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   index.html
+
+
+56121742019.1@56DE195000 MINGW64 /c/Holf/SegVer/Aprendizado (master)
+$ git commit -m "Novo arquivo index"
+[master 9602355] Novo arquivo index
+ 1 file changed, 36 insertions(+)
+ create mode 100644 index.html
+
+56121742019.1@56DE195000 MINGW64 /c/Holf/SegVer/Aprendizado (master)
+$ git push master
+fatal: 'master' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+56121742019.1@56DE195000 MINGW64 /c/Holf/SegVer/Aprendizado (master)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 662 bytes | 662.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/Yuji-Tako/Aprendizado.git
+   05395f0..9602355  master -> master
+
+56121742019.1@56DE195000 MINGW64 /c/Holf/SegVer/Aprendizado (master)
+$
